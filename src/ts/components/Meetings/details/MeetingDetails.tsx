@@ -22,7 +22,7 @@ export default observer(function MeetingDetails() {
   }, [id, loadMeeting]);
 
   const handleDelete = (id: string) => {
-    deleteMeeting(id).then(() => navigate("/meeting"));
+    deleteMeeting(id).then(() => navigate("/"));
   };
 
   if (loadingInitial || !meeting) return <LoadingComponent />;

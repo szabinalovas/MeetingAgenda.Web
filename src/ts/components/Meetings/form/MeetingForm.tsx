@@ -82,7 +82,7 @@ export default observer(function MeetingForm() {
               type="submit"
               content="Submit"
             />
-            <Button as={Link} to="/meeting" floated="right" content="Cancel" />
+            <Button as={Link} to="/" floated="right" content="Cancel" />
           </Form>
         )}
       </Formik>

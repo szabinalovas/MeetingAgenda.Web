@@ -9,7 +9,7 @@ export const routes: RouteObject[] = [
     path: "/",
     element: <App />,
     children: [
-      { path: "meeting", element: <MeetingDashboard /> },
+      { path: "/", element: <MeetingDashboard /> },
       { path: "meeting/:id", element: <MeetingDetails /> },
       { path: "createMeeting", element: <MeetingForm key="create" /> },
       { path: "update/:id", element: <MeetingForm key="update" /> },

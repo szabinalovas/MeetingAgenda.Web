@@ -5,14 +5,14 @@ export default function NavBar() {
   return (
     <Menu inverted fixed="top">
       <Container>
-        <Menu.Item as={NavLink} to="/meeting" header>
+        <Menu.Item as={NavLink} to="/" header>
           <img
             src="assets/logo.png"
             alt="logo"
             style={{ marginRight: "10px" }}
           />
         </Menu.Item>
-        <Menu.Item as={NavLink} to="/meeting" name="Meetings" />
+        <Menu.Item as={NavLink} to="/" name="Meetings" />
         <Menu.Item>
           <Button
             as={NavLink}
